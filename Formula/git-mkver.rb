@@ -1,4 +1,4 @@
-cask "git-mkver" do
+class GitMkver < Formula
     MKVER_VERSION = "1.2.1".freeze
     MKVER_SHA256  = "081e92be4e94c24f63733f07b60040250565af9518541c2e80019d578dc888ca".freeze
   
