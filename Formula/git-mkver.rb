@@ -6,9 +6,12 @@ class GitMkver < Formula
   homepage "https://idc101.github.io/git-mkver/"
   url "https://github.com/idc101/git-mkver/releases/download/v#{MKVER_VERSION}/git-mkver-darwin-universal-#{MKVER_VERSION}.tar.gz"
   sha256 MKVER_SHA256
-  version MKVER_VERSION
 
   def install
     bin.install "git-mkver"
+  end
+
+  test do
+    system bin/"git-mkver", "--version"
   end
 end
