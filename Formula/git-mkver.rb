@@ -1,6 +1,6 @@
 class GitMkver < Formula
-  MKVER_VERSION = "1.4.0".freeze
-  MKVER_SHA256  = "80d2521f8d00ffb6578b0abe748006428166906eb06d49a2be74f8818022c162".freeze
+  MKVER_VERSION = "2.0.0".freeze
+  MKVER_SHA256  = "0b1faf04a5fa410be0607658affcf73f1fab5d6a7a0b7d03d3ab82bd0e4f245c".freeze
 
   desc "Automatic Semantic Versioning for git based software development"
   homepage "https://idc101.github.io/git-mkver/"
